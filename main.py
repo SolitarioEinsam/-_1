@@ -61,6 +61,7 @@ def data_transfer_dop_data():
                 #print(line)
                 with open('dop_data.txt', 'a') as file_dop:
                     file_dop.write(line)
+#вывод доп базы 
 def data_transfer_dop_data_output():
     with open('dop_data.txt', 'r') as file:
         data = file.readlines()
